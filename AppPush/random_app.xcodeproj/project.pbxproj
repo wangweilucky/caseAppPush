@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		561C11E129F6602C00C8D9FC /* WWTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 561C11E029F6602C00C8D9FC /* WWTool.m */; };
 		5635F4B329B5DA020079720D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5635F4B229B5DA020079720D /* AppDelegate.m */; };
 		5635F4B929B5DA020079720D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5635F4B829B5DA020079720D /* ViewController.m */; };
 		5635F4BC29B5DA030079720D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5635F4BA29B5DA020079720D /* Main.storyboard */; };
@@ -46,6 +47,8 @@
 
 /* Begin PBXFileReference section */
 		08D0FB03AA0D19278CCAF91A /* Pods-notification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notification.release.xcconfig"; path = "Target Support Files/Pods-notification/Pods-notification.release.xcconfig"; sourceTree = "<group>"; };
+		561C11DF29F6602C00C8D9FC /* WWTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWTool.h; sourceTree = "<group>"; };
+		561C11E029F6602C00C8D9FC /* WWTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWTool.m; sourceTree = "<group>"; };
 		5635F4AE29B5DA020079720D /* random_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = random_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5635F4B129B5DA020079720D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5635F4B229B5DA020079720D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 				5635F4C229B5DA040079720D /* Info.plist */,
 				5635F4C329B5DA040079720D /* main.m */,
 				569C24CC29C956EC00A9EFAF /* GoogleService-Info.plist */,
+				561C11DF29F6602C00C8D9FC /* WWTool.h */,
+				561C11E029F6602C00C8D9FC /* WWTool.m */,
 			);
 			path = random_app;
 			sourceTree = "<group>";
@@ -328,6 +333,7 @@
 				5635F4B929B5DA020079720D /* ViewController.m in Sources */,
 				5635F4B329B5DA020079720D /* AppDelegate.m in Sources */,
 				5635F4C429B5DA040079720D /* main.m in Sources */,
+				561C11E129F6602C00C8D9FC /* WWTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

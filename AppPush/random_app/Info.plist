@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>FirebaseAppDelegateProxyEnabled</key>
-	<false/>
+	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -12,6 +12,10 @@
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
+	</array>
+	<key>TDDisPresetProperties</key>
+	<array>
+		<string>#start_reason</string>
 	</array>
 </dict>
 </plist>
